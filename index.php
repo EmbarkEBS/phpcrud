@@ -1,9 +1,10 @@
 <?php
+//PHP CRUD Sample
 echo phpversion();
 //echo "The time is " . date("H"); 
 //database conection  file
 include('dbconnection.php');
-//Code for deletion
+//Code for deletion record
 if(isset($_GET['delid']))
 {
 	$rid=intval($_GET['delid']);
